@@ -1,0 +1,83 @@
+body{
+    margin: 0 auto;
+    background-color: oldlace;
+}
+header{
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   text-align: center;
+}
+header a{
+    display: inline;
+    color: aqua;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav ul {
+    position: fixed;
+    padding: 0;
+    width: 20%;
+    height: 36px;
+}
+nav{
+
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 0;
+    float: left;
+}
+nav li{
+    list-style: none;
+    padding:0;
+    line-height: 30px;
+    cursor:pointer;
+    background-color: deepskyblue;
+
+}
+nav a{
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+article{
+background-color: brown;
+    float: left;
+    width: 60%;
+    height: 1200px;
+}
+section{
+    background-color: yellow;
+    float: left;
+    width: 20%;
+    height: 1000px;
+}
+section ul{
+    position: fixed;
+    padding: 0;
+    width: 20%;
+    height: 36px;
+}
+section li{
+    list-style: none;
+    padding:0;
+    line-height: 30px;
+    cursor:pointer;
+    background-color: deepskyblue;
+}
+section a{
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
